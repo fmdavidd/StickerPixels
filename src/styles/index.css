@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Lilita One', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: red;
+  background-color: #e5f4f5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  height:100%;
+}
+::selection{
+  background-color: rgb(255, 25, 25);
+  color: rgb(255, 216, 216);
+}
