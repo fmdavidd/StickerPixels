@@ -5,8 +5,9 @@ return(
     <> 
     <Marquee></Marquee>
     <div className='caja'>
+    <h1 className='titulo2'>PIXEL ART EDITOR</h1>
     <Editor />
-    <h1>holA</h1>
+    
     </div>
     </>
 )

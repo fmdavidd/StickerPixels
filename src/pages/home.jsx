@@ -18,10 +18,23 @@ export default function Home() {
           <Link to="/canvas"className="boton" >START CREATING</Link>
           </div>
           <div className='footer'>
-          
-          <Marquee />
           </div>
-          
+
+          <div className='info'>
+          <div className='caja2'>
+            <h3>STEP 1</h3>
+            <p>Choose De Panel Dimensions.</p>
+          </div>
+          <div className='caja2'>
+            <h3>STEP 2</h3>
+            <p>Design your Pixelart Sticker.</p>
+          </div>
+          <div className='caja2'>
+            <h3>STEP 3</h3>
+            <p>Choose your payment method.</p>
+          </div>
+          </div>
+          <Marquee />
           </>
           
       )
